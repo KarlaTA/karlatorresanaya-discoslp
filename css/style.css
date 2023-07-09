@@ -54,16 +54,19 @@ h1 {
     font-weight: bold;
 }
 
+
 .listadeinicio li {
     background-color: #5f2121;
     width: 120px;
     margin: 5px;
     padding: 15px;
-    border-radius: 1px;
+    border-radius: 5px;
     display: inline-block;
-
 }
 
+.listadeinicio li :hover{
+    color: #9d5353;
+}
 
 
 
@@ -94,7 +97,6 @@ h1 {
 
 .Must {
 
-
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     background-color: #7f4141;
@@ -113,6 +115,12 @@ h1 {
     border: 2px solid;
     border-color: whitesmoke;
     justify-content: center;
+}
+
+.custom-img{
+    height: 500px;
+    object-fit: contain;
+    width: 100%;
 }
 
 
@@ -225,15 +233,6 @@ grid-column: span 2;
     }
 
 
-
-
-
-
- 
-
- 
-
- 
 
 
 /* Main noticias */
